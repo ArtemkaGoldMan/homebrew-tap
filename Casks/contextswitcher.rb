@@ -4,7 +4,8 @@ cask "contextswitcher" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/ArtemkaGoldMan/ContextSwitcher/releases/latest/download/ContextSwitcher.zip"
+  # The release's zipped .app - the same file the in-app updater installs - not a source zipball.
+  url "https://github.com/ArtemkaGoldMan/ContextSwitcher/releases/latest/download/ContextSwitcher.zip" # rubocop:disable Cask/Url
   name "ContextSwitcher"
   desc "Switch between work and personal setups in one click"
   homepage "https://github.com/ArtemkaGoldMan/ContextSwitcher"
